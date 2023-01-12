@@ -15,12 +15,12 @@ namespace Genericsproblems
         public  static void Main(string[] args)
         {
             
-            
-
+          
+           
             Console.WriteLine("Welcome to the Generics Problem : ");
-            FindMaximum.FindMaxValue(20, 40, 50);
+            FindMaximum Number = new findMaximum();
+            FindMaximum.FindMaxValue(20.5f, 10.3f, 11.3f);
             Console.ReadLine();
-
 
 
 
