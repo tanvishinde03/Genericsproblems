@@ -39,6 +39,11 @@ namespace Genericsproblems
                     new FindMaxGenericsClass<string>("Apple", "Peach", "Banana").TestMaximum();
                     break;
 
+                case 4:
+                    FindMaxParams.MaxValue(45, 23, 54, 6, 23, 43);
+                    FindMaxParams.MaxValue(45, 6, 23, 43);
+                    break;
+
 
 
 
