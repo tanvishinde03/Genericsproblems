@@ -15,7 +15,7 @@ namespace Genericsproblems
         {
             Console.WriteLine("Welcome to the Generics Problem : ");
             findmaximum Number = new findmaximum();
-            findmaximum.FindMaxValue(20.5f, 10.3f, 11.3f);
+            findmaximum.FindMaxValue("zya", "zzz", "rew");
             Console.ReadLine();
 
 
