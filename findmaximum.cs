@@ -25,11 +25,14 @@ namespace findmaximumnumber
             else
                 Console.WriteLine("All number are equal");
         }
+
+
+
+
+
+
+
+
+
     }
-
-
-
-
-
 }
-

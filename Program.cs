@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using static Genericsproblems.FindMaxGenericsClass1;
 
 namespace Genericsproblems
 {
@@ -29,9 +29,21 @@ namespace Genericsproblems
 
                     case 2:
                         GenericsFindMax<int>.FindMaxValue(14, 23, 12);
-                        break;
+                    GenericsFindMax<float>.FindMaxValue(14.4f, 23.5f, 12.9f);
+                    GenericsFindMax<string>.FindMaxValue("Apple", "Peach", "Banana");
+                    break;
 
-                    default:
+                case 3:
+                    new FindMaxGenericsClass<int>(20, 40, 50).TestMaximum();
+                    new FindMaxGenericsClass<float>(20.5f, 10.3f, 11.3f).TestMaximum();
+                    new FindMaxGenericsClass<string>("Apple", "Peach", "Banana").TestMaximum();
+                    break;
+
+
+
+
+
+                default:
                         Console.WriteLine("Please choose the number given range");
                         break;
                 }
